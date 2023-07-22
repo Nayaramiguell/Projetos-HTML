@@ -1,5 +1,30 @@
 
-.menu{
+.container_principal{
     display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
     
+
+}
+.div_esquerda{
+    display: flex;
+    flex-direction:column;
+    border: solid;
+    border-radius: 8%;
+    width: 30%;
+    height: 20%;
+}
+
+.div_direita{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    width: 30%;
+    height: 20%;
+}
+
+.img_whatsapp{
+    height: 30px;
+    width:30px;
 }
