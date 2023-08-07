@@ -24,5 +24,6 @@ body {
 }
 .container_menu:checked ~ .lista_menu_tecnologias {
     display: block;
+    background: aqua;
     
 }
